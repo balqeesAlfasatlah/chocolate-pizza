@@ -150,9 +150,7 @@ main .list-img{
   }
 
  
-  ul li .checked{
-   text-decoration: line-through;
-  }
+  
 
   input[type='checkbox']:checked + label {
     text-decoration: line-through;
