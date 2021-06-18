@@ -7,7 +7,7 @@
 }
 .container{
     width: 1000px;
-    height:2000px;
+    height:fit-content;
     margin: auto;
    
    
@@ -30,7 +30,7 @@ header img{
     padding-right: 10px;
 }
 
- header section h4{
+ header div h4{
     position: absolute;
     top:24px;
     left:310px;
@@ -39,7 +39,7 @@ header img{
     
 }
 
-header  section p{
+header  div p{
     position: absolute;
     top:68px;
     left:316px;
@@ -205,6 +205,61 @@ button{
     padding: 0 30px;
     font-size:18px;
 }
+
+footer{
+   margin-top: 100px;
+   position: relative;
+   margin-bottom: 110px;
+ 
+
+}
+
+
+footer img {
+    position: relative;
+    top:10px;
+    left:50%;
+    margin-bottom: 15px;
+    
+    
+  }
+
+  
+  footer::before{
+      content: "";
+      display: block;
+      width:47%;
+      height: 1px;
+      background-color:#e6e6e6;
+      position: absolute;
+      top:25%;
+      left:0;
+     
+      
+      
+  }
+
+  footer ::after{
+    content: "";
+    display: block;
+    width:45%;
+    height: 1px;
+    background-color:#e6e6e6;
+    position: absolute;
+    top:25%;
+    left:57%;
+}
+
+  footer p{
+      text-align: center;
+      color: gray;
+      margin-top: 20px;
+      font-size: 18px;
+      line-height:5px;
+     
+
+
+  }
   
   
 
