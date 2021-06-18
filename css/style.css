@@ -1,0 +1,61 @@
+
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 1000px;
+    height: 1000px;
+    margin: auto;
+   
+}
+
+
+header{
+    display:flex ;
+    justify-content: space-between;
+
+}
+
+header img{
+    margin-top: 30px;
+    
+
+}
+
+.logo-spae{
+    padding-right: 10px;
+}
+
+ header div h4{
+    position: absolute;
+    top:24px;
+    left:310px;
+    font-family:"Yellowtail";
+    font-size:45px;
+    
+}
+
+header  div p{
+    position: absolute;
+    top:68px;
+    left:316px;
+    font-size: 10px;
+    color:#a6a6a6;
+    font-family: 'Work Sans', sans-serif;
+    font-weight: bold;
+}
+
+ header hr{
+    background-image:url("../images/hr-img.png");
+    width:66%;
+    height: 12px;
+    position: absolute;
+    margin-top:110px;
+    border: none;
+    
+}
+
+ 
